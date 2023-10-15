@@ -1,8 +1,7 @@
 name: deploy to prod
 on:
-  push:
-    tags:
-      - v*
+  release:
+    types: [published]
 
 jobs:
   build_and_push:
