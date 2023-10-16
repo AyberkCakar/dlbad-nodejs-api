@@ -18,8 +18,6 @@ class AuthQuerys {
           emailAddress
           firstName
           lastName
-          role
-          fullName
         }
       }
     `;

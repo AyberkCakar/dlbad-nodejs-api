@@ -24,7 +24,6 @@ router.post("/login", async (req, res) => {
     const token = await authUtils.tokenCreationAsync({
       id: user.id.toString(),
       "https://hasura.io/jwt/claims": {
-        "x-hasura-default-role": user.role.toLowerCase(),
         "x-hasura-user-id": user.id.toString()
       },
     });
@@ -52,6 +51,7 @@ router.post("/sign-up", async (req, res) => {
 
     res.json({ id: responseAddUser.insert_users_one.id });
   } catch (err) {
+    
     if (err.response?.errors[0].extensions.code == "constraint-violation") {
         res
           .status(HttpStatusCode.CONFLICT)
