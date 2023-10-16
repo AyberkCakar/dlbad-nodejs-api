@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.1](https://github.com/ayberkcakar/dlbad-nodejs-api/compare/v1.0.0...v1.0.1) (2023-10-16)
+
+
+### Bug Fixes
+
+* delete unused docs ([cef6311](https://github.com/ayberkcakar/dlbad-nodejs-api/commit/cef6311420ca452651a9d0407d10d5eac5d4b12a))
+* fixed app body parser ([421e325](https://github.com/ayberkcakar/dlbad-nodejs-api/commit/421e325182108ed8d6f8d5a2f47cffc7138336db))
+* fixed login action ([d2aa83a](https://github.com/ayberkcakar/dlbad-nodejs-api/commit/d2aa83af63175d29e6b7e4807247a1efcf61a10e))
+* fixed signUp validation ([7b1c645](https://github.com/ayberkcakar/dlbad-nodejs-api/commit/7b1c645d4f992577693997222aa1e90bdaa09c16))
+* update docker-compose.yml ([9ea2efd](https://github.com/ayberkcakar/dlbad-nodejs-api/commit/9ea2efd04057f927767292f39702917f2071af02))
+
 ## 1.0.0 (2023-10-15)
 
 
