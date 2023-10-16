@@ -12,17 +12,3 @@ services:
       - "${PORT}:${PORT}"
     env_file:
       - .env
-    depends_on:
-      - database
-  database:
-    container_name: db
-    image: mariadb:10.3
-    environment:
-      MYSQL_ROOT_PASSWORD: ${DB_PASS}
-      MYSQL_DATABASE: ${DB_DATABASE}
-      MYSQL_USER: ${DB_USER}@localhost
-      MYSQL_PASSWORD: ${DB_PASS}
-    volumes:
-      - dbdata:/var/lib/mysql
-volumes:
-  dbdata:
