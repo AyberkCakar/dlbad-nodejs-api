@@ -24,6 +24,8 @@ router.post("/login", async (req, res) => {
     const token = await authUtils.tokenCreationAsync({
       id: user.id.toString(),
       "https://hasura.io/jwt/claims": {
+     	"x-hasura-default-role": "admin",
+        "x-hasura-allowed-roles": ["admin"],
         "x-hasura-user-id": user.id.toString()
       },
     });
