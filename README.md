@@ -50,5 +50,4 @@ As a developer, to start the project and do the test operations, first go to the
 ```
 
 ## Useful resources
-* [API Documentation](#)
-* [Changelog](#)
+* [Changelog](https://github.com/AyberkCakar/dlbad-nodejs-api/blob/main/CHANGELOG.md)
