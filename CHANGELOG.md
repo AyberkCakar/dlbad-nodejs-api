@@ -1,7 +1,14 @@
 # Changelog
 
-All notable changes to this project will be documented in this file.
-See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### [1.0.2](https://github.com/ayberkcakar/iml-datasoft-nodejs-api/compare/v1.0.1...v1.0.2) (2024-08-16)
+
+
+### Bug Fixes
+
+* fix for project name ([3e212f2](https://github.com/ayberkcakar/iml-datasoft-nodejs-api/commit/3e212f2747d94b6d8f4c830c32e5c480686002da))
+* fixed login router ([be5e9c2](https://github.com/ayberkcakar/iml-datasoft-nodejs-api/commit/be5e9c2c9625712d2ff6579cc7cedd6fce4d119b))
 
 ### [1.0.1](https://github.com/ayberkcakar/iml-datasoft-nodejs-api/compare/v1.0.0...v1.0.1) (2023-10-16)
 
