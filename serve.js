@@ -9,7 +9,7 @@ const { version } = require("./package.json");
 const { environment } = require("./utils/config");
 
 app.get("/", function (req, res) {
-  res.json("DLBAD NodeJS API");
+  res.json("IML DataSoft NodeJS API");
 });
 
 if (environment === "dev")
@@ -21,7 +21,7 @@ if (environment === "dev")
         swaggerDefinition: {
           openapi: "3.0.1",
           info: {
-            title: "DLBAD NodeJS Back-End Service",
+            title: "IML DataSoft NodeJS Back-End Service",
             version: version,
           },
           components: {

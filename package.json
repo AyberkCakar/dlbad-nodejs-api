@@ -1,5 +1,5 @@
 {
-  "name": "dlbad-nodejs-api",
+  "name": "iml-datasoft-nodejs-api",
   "version": "1.0.1",
   "description": "",
   "main": "index.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ayberkcakar/dlbad-nodejs-api.git"
+    "url": "git+https://github.com/ayberkcakar/iml-datasoft-nodejs-api.git"
   },
   "author": "",
-  "license": "GNU GENERAL PUBLIC LICENSE",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ayberkcakar/dlbad-nodejs-api/issues"
+    "url": "https://github.com/ayberkcakar/iml-datasoft-nodejs-api/issues"
   },
-  "homepage": "https://github.com/ayberkcakar/dlbad-nodejs-api#readme",
+  "homepage": "https://github.com/ayberkcakar/iml-datasoft-nodejs-api#readme",
   "dependencies": {
     "axios": "^0.21.1",
     "cors": "^2.8.5",

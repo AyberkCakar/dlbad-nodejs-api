@@ -1,6 +1,6 @@
-# DLBAD NodeJS REST API Project
+# IML DataSoft NodeJS REST API Project
 
-Deploy methods of DLBAD NodeJS REST API project are given below.
+Deploy methods of IML DataSoft NodeJS REST API project are given below.
 
 ### Project Publishing Instructions
 The project can be published in two different ways.
@@ -50,4 +50,4 @@ As a developer, to start the project and do the test operations, first go to the
 ```
 
 ## Useful resources
-* [Changelog](https://github.com/AyberkCakar/dlbad-nodejs-api/blob/main/CHANGELOG.md)
+* [Changelog](https://github.com/AyberkCakar/iml-datasoft-nodejs-api/blob/main/CHANGELOG.md)
